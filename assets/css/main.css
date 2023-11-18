@@ -1,0 +1,243 @@
+*{margin: 0}
+
+html, body{height: 100%}
+
+#wrapper{
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	padding-bottom: 120px;
+	box-sizing: border-box;
+}
+
+header{
+	float: left;
+	width: 100%;
+	height: 60px;
+	background: #5d9560;
+}
+
+.logo{
+	float: left;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.triptext{
+	height: 60px;
+	width: 100;
+	text-align: center;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+	font-family: frutiger lt pro;
+	font-size: 12px;
+	color: white;
+}
+
+.tripadvisor{
+	float: right;
+	height: 60px;
+	box-sizing: border-box;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: #545c5c;
+	color: #ffffff;
+	text-align: center;
+}
+
+.galway{
+	background: none;
+	height: 24%;
+	width: 100%;
+}
+
+.bedandbreakfast-home{
+
+	float: left;
+	width: 500px;
+	margin: 10px;
+}
+
+/* About pictures */
+
+#gallery {
+    margin: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    width: 25%;
+    min-width: 100px;
+}
+
+h1{
+	margin-top: 20px;
+	text-align: center;
+	font-family: open sans;
+	font-weight: 200;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: open sans;
+	font-weight: 200;
+}
+
+h3{
+	text-align: left;
+	font-family: open sans;
+	font-weight: 200;
+}
+
+#about-text{
+	margin: 20px;
+	font-family: open sans;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+								/*MAP*/
+
+.map-outer{								
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+.map-inner iframe {					
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin-top: 0px;
+}
+
+								/* Navigation */
+
+ul.nav-links{
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+li.nav-link-buttons{
+	font-family: roboto;
+	display: inline;
+	list-style-type: none;
+	float: left;
+	width: 100px;
+	height: 43px;
+	margin-left: 0px;	
+	font-size: 18px;
+	padding-top: 17px;
+	text-align: center;
+}
+
+a:link li.nav-link-buttons{
+	background: #5d9560;
+	color: #fff;
+}
+
+a:visited li.nav-link-buttons{
+	background: #5d9560;
+	color: #fff;
+}
+a:hover li.nav-link-buttons{
+	background: #85a987;
+	color: #fff;
+}
+
+a:active li.nav-link-buttons{
+	background: #5d9560;
+	color: #fff;
+}
+
+li.nav-link-active{
+	font-family: roboto;
+	display: inline;
+	list-style-type: none;
+	float: left;
+	width: 100px;
+	height: 43px;
+	margin-left: 0px;
+	font-size: 18px;
+	padding-top: 17px;
+	text-align: center;
+	background: #77c177;
+	color: #fff;
+}
+
+									/* Contact page */
+
+#contactus{
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+.contact-form-outer{
+	float: left;
+	width: 100%;
+	height: 200px;
+	padding-top: 20px;
+	/*background: green;*/
+}
+
+.contact-form-inner{
+	width: 380px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0px;
+	/*background: red;*/
+}
+
+.contact-form-inner input{
+	width: 372px;
+	height: 20px;
+	margin: 5px 0px;
+	display: block;
+	font-size: 15px;
+	border-radius: 2px solid #dadada;
+	font-family: roboto;
+}
+
+.contact-form-inner textarea{				
+	width: 372px;
+	height: 100px;
+	margin: 5px 0px;
+	margin-bottom: 0px;					
+	display: block;
+	font-size: 15px;
+	border-radius: 2px solid #dadada;
+	font-family: roboto;
+}
+
+.contact-form-inner input[type=submit]{			
+	width: 380px;
+	height: 50px;
+	margin: 8px 0px;
+	font-size: 15px;
+	border-radius: 4px;
+	border: none;
+	background: #5d9560;
+	color: #fff;
+	font-family: roboto;
+	cursor: pointer;						
+}
+
+.contact-form-inner input[type=submit]:hover{
+	text-decoration: underline;
+}
+
+p#error-list{				
+	display: none;			/*hiding the page*/
+}

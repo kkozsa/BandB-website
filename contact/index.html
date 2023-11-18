@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact | Gillian B&B</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+		<link rel="icon" type="image/png" href="../assets/images/logo.jpg">
+
+		<link href="https://fonts.cdnfonts.com/css/frutiger-lt-pro" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+		<meta name="keywords" content="ireland, galway, bed, breakfast, accomodation, pubs, connemara, cliffs, moher, aran, island"> 
+		<meta name="description" content="Gillian Moore unique Bed and Breakfast business located on the west coast of Ireland in Galway city.">     
+
+		<style>
+		.error{
+			color: red;
+		}
+		</style>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<img class="logo" src="../assets/images/logo.jpg" alt="galway landscape">
+				<img class="tripadvisor" src="../assets/images/tripadvisor.png" alt="tripadvisor">
+				<div class="triptext">
+					<div>TripAdvisor Certificate of Excellence </div>
+					<div>2018 and 2019</div>
+				</div>
+				<nav>
+					<ul class="nav-links">
+						<a href="../index.html">
+							<li class="nav-link-buttons">Home</li>
+						</a>
+						<a href="../about/index.html">
+							<li class="nav-link-buttons">About</li>
+						</a>
+						<li class="nav-link-active">Contact</li>
+					</ul>
+				</nav>
+			</header>
+
+		<div class="galway">
+			<img class="galway" src="../assets/images/galway.jpg" alt="galway landscape">				
+		</div>
+
+			<main>
+				<div class="contact-form-outer">
+					<div class="contact-form-inner">
+						<p id="contactus">For booking and other queries, please contact us:</p>
+						<form method="get" action="../index.html" id=contact-form>			<!--Main form ID-->
+							<input type="text" name="fullname" placeholder="Enter your full name:" id="fullname">
+							<input type="email" name="email" placeholder="Enter your email address:" id="email">				
+							<textarea name="description" placeholder="Fill in description:" id="description"></textarea>
+							<input type="submit" value="Submit">
+
+							<p id="error-list">You have (<span id="error-count"></span>) errors!</p>
+						</form>
+					</div>
+				</div>
+
+			</main>
+		</div>
+
+		<footer>&copy; 2023</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+	</body>
+</html>
